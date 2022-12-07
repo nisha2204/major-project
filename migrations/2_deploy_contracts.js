@@ -1,5 +1,5 @@
-var TodoList = artifacts.require("./TodoList.sol");
+const Land = artifacts.require("Land");
 
 module.exports = function(deployer) {
-  deployer.deploy(TodoList);
+  deployer.deploy(Land);
 };
